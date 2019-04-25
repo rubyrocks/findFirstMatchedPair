@@ -9,7 +9,6 @@ public class findFirstMatchedPair {
         String ret = "";
         LinkedHashMap<String, Integer> characterCount = new LinkedHashMap<String, Integer>();
 
-
         String c = "";
         String strkey = "";
 
@@ -45,13 +44,11 @@ public class findFirstMatchedPair {
         }
 
         return ret;
-
     }
 
 
     public static String findFirstMatchedPairRefactored(String strVal)
     {
-
         String ret = "";
 
         Map<String, AtomicInteger> map = new LinkedHashMap<>();
